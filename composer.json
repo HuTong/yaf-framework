@@ -1,0 +1,16 @@
+{
+    "name": "hutong/yaf-framework",
+    "license": "MIT",
+    "description": "Yaf 命名空间基础框架",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hutong",
+            "email": "hutong0521@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "minimum-stability": "dev"
+}
