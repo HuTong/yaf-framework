@@ -20,7 +20,15 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
 	public function _initPlugin(Yaf\Dispatcher $dispatcher)
 	{
 		//注册一个插件
-		$dispatcher->registerPlugin(new HuTong\Ycore\Layout());
+        if(!$dispatcher->getRequest()->isXmlHttpRequest())
+        {
+            if(Yaf\Registry::get('config')->layout->open)
+            {
+                $layout = new HuTong\Ycore\Layout();
+                Yaf\Registry::set('layout', $layout);
+                $dispatcher->registerPlugin($layout);
+            }
+        }
 	}
 
 	public function _initRoute(Yaf\Dispatcher $dispatcher)
