@@ -16,7 +16,8 @@
         }
     },
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "hutong/ycore": "dev-master",
     },
     "minimum-stability": "dev"
 }
