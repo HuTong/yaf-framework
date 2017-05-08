@@ -1,8 +1,8 @@
 <?php
-class IndexController extends HuTong\Ycore\Xcontroller
+class IndexController extends BaseController
 {
 
-	public function indexAction($name = "Stranger") 
+	public function indexAction($name = "Stranger")
 	{
 		//1. fetch query
 		$get = $this->getRequest()->getQuery("get", "default value");
