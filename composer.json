@@ -9,12 +9,6 @@
             "email": "hutong0521@163.com"
         }
     ],
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
-    },
     "require": {
         "php": ">=7.0.0"
     },
