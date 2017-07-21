@@ -1,6 +1,9 @@
 # yaf-framework
 yaf命名空间框架
 
+# 学习交流群
+630730920
+
 ### 安装
 composer create-project hutong/yaf-framework www dev-master
 
